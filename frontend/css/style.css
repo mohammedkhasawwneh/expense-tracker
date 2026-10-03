@@ -1,0 +1,11 @@
+summary-grid{
+   display: grid;
+   grid-template-columns: 1fr;
+   gap : 1rem;
+}
+@media (min-width: 768px)
+{
+   .summary-grid{
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+}
